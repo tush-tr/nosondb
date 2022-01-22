@@ -1,0 +1,19 @@
+{
+  "name": "@tush-tr/nosondb",
+  "version": "1.0.0",
+  "description": "A node module for creating json file as database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tush-tr/nosondb.git"
+  },
+  "author": "github.com/tush-tr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tush-tr/nosondb/issues"
+  },
+  "homepage": "https://github.com/tush-tr/nosondb#readme"
+}
