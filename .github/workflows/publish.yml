@@ -4,7 +4,15 @@ on:
   push
 
 jobs:
+  test-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm test
+      
   publish-npm:
+    needs: test-package
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

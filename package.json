@@ -1,6 +1,6 @@
 {
   "name": "@tush-tr/nosondb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node module for creating json file as database",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tush-tr/nosondb/issues"
   },
-  "homepage": "https://github.com/tush-tr/nosondb#readme"
+  "homepage": "https://github.com/tush-tr/nosondb#readme",
+  "dependencies": {
+    "@tush-tr/nosondb": "^1.0.0"
+  }
 }
