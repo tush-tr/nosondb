@@ -38,7 +38,6 @@ class NosonDb{
                 return record;
             }
         }
-
     }
 
     async create(attrs){
