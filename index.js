@@ -38,9 +38,23 @@ class NosonDb{
                 return record;
             }
         }
-
     }
-
+    async getAllBy(filters){
+        const records = await this.getAll();
+        const result = [];
+        for(let record of records){
+            let found = true;
+            for(let key in filters){
+                if(record[key] !== filters[key]){
+                    found = false;
+                }
+            }
+            if(found){
+                result.push(record)
+            }
+        }
+        return result;
+    }
     async create(attrs){
         attrs.id = this.randomId()
         const records = await this.getAll();
