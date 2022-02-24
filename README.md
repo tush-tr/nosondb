@@ -128,6 +128,15 @@ const createRecord = async ()=>{
     console.log(filterdData)
 }
 ```
+    
+### <li> Find some records by filters
+    
+```js
+const fetchRecords = async ()=>{
+    const filteredData = await nodb.getAllBy({name: 'Product1'})
+    console.log(filterdData)
+}    
+```
 
 # Contributing 🍻
 
