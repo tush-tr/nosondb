@@ -1,6 +1,9 @@
 <img src="https://img.shields.io/github/issues/tush-tr/nosondb"> <img src="https://img.shields.io/github/forks/tush-tr/nosondb"> <img src="https://img.shields.io/github/license/tush-tr/nosondb"> <img src="https://img.shields.io/github/stars/tush-tr/nosondb"> <a href="https://twitter.com/tush_tr604" target="blank"><img src="https://img.shields.io/twitter/follow/tush_tr604?logo=twitter&style=flat" alt="tush_tr604" /></a> <img src="https://img.shields.io/github/languages/count/tush-tr/nosondb">
 
 # nosondb
+
+<img src="150CC64A-5FE9-4A34-9327-8D2169DBE74F_4_5005_c.jpeg"/>
+
 A json based database you can use in your nodejs projects just by installing the package.
 
 nosondb enables you to use a json file as a database for your project.
