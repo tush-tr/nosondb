@@ -31,6 +31,65 @@ const nodb = new nosondb("db.json") // specify your json file name you want to u
 
 # Functionalities
 
+
+<table>
+<tr>
+<th>Method</th>
+<th>Input Arguments</th>
+<th>Return Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>getAll</td>
+<td>-</td>
+<td>[user]</td>
+<td>Gets a list of all users</td>
+</tr>
+<tr>
+<td>getOne</td>
+<td>id</td>
+<td>user</td>
+<td>finds the user with a given id</td>
+</tr>
+<tr>
+<td>getOneBy</td>
+<td>filters</td>
+<td>user</td>
+<td>finds one user with the given filters</td>
+</tr>
+<tr>
+<td>create</td>
+<td>attributes</td>
+<td>null</td>
+<td>creates a user with the given attributes</td>
+</tr>
+<tr>
+<td>update</td>
+<td>id,attributes</td>
+<td>null</td>
+<td>updates the user with the given id using the given attributes</td>
+</tr>
+<tr>
+<td>delete</td>
+<td>id</td>
+<td>null</td>
+<td>delete the user with the given id</td>
+</tr>
+<tr>
+<td>randomId</td>
+<td>-</td>
+<td>id</td>
+<td>generates a random id</td>
+</tr>
+<tr>
+<td>writeAll</td>
+<td>-</td>
+<td>null</td>
+<td>writes all users to a user.json file</td>
+</tr>
+</table>
+
+
 ### <li>Creating a record
 
 ```js
